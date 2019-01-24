@@ -54,7 +54,7 @@ class RecommendViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.lightGray
-        
+    
         setupUI()
         
     }
@@ -94,10 +94,16 @@ extension RecommendViewController : UICollectionViewDataSource,UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: kHeaderViewID, for: indexPath)
+        
+        var headerView:UICollectionReusableView!
+        
+        if kind == UICollectionElementKindSectionHeader{
+            headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: kHeaderViewID, for: indexPath)
+        }
         
         return headerView
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if indexPath.section == 1 {

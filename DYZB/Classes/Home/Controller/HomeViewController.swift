@@ -58,7 +58,7 @@ extension HomeViewController{
         setupNavgationBar()
         
         view.addSubview(pageTitleView)
-        
+//
         view.addSubview(pageContentView)
     }
     

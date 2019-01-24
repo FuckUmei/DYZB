@@ -44,6 +44,7 @@ class PageContentView: UIView {
         
         return collectionView
         }()
+    
     init(frame: CGRect, childVcs : [UIViewController], parentViewController : UIViewController?) {
         self.childVcs = childVcs
         self.parentViewController = parentViewController
