@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ceH-tv-Y2l">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="4Fu-XA-MUJ">
+            <objects>
+                <viewController id="PtC-9j-OpD" customClass="HomeViewController" customModule="DYZB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ga-eg-J5D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Um4-ou-wam"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HnA-tY-CXw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m6k-C5-YqO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="-791"/>
+        </scene>
+        <!--推荐-->
+        <scene sceneID="u4i-dQ-lsz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ceH-tv-Y2l" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="推荐" image="tabLive" selectedImage="tabLiveHL" id="o3h-AQ-3tZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DfS-NZ-msH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PtC-9j-OpD" kind="relationship" relationship="rootViewController" id="84m-gc-jT3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CIv-mR-bud" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="-791"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabLive" width="32" height="32"/>
+        <image name="tabLiveHL" width="32" height="32"/>
+    </resources>
+</document>

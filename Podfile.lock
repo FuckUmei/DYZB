@@ -1,0 +1,16 @@
+PODS:
+  - RAMAnimatedTabBarController (3.5.0)
+
+DEPENDENCIES:
+  - RAMAnimatedTabBarController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RAMAnimatedTabBarController
+
+SPEC CHECKSUMS:
+  RAMAnimatedTabBarController: 7e259e89b669c7bc833a6441c7d8fbfd6580f473
+
+PODFILE CHECKSUM: af2be4808af1c625b06a2c981d7a0753d388e436
+
+COCOAPODS: 1.5.2

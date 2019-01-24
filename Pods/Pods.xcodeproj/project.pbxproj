@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C55CD479988E011CFD34F6A3953E9E /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F7045D1681DC5EC7A65D6741A2DA3 /* RAMItemAnimationProtocol.swift */; };
+		07BF5A4E8D377815E9925C58321A31E4 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C42425965EA21D735BD657B8FED55 /* RAMAnimatedTabBarController-dummy.m */; };
+		1AC2EB30C1CD9E67E5CFFFA607F26559 /* Pods-DYZBTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DEAB73BB3CA113CCC0B2EADB44FE7 /* Pods-DYZBTests-dummy.m */; };
+		241934F42AF45DD6AB7B9B3DFAF0C589 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBDB8E0CD3E6FA8C13AB15F70CD7936 /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		26993479AB227BE71F25E0A7F9396B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		37EF3C3483393EC9C5713F5C4A36AD43 /* Pods-DYZBTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FC1CB77E8DF6DF9586965225EA6E0D /* Pods-DYZBTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736D6EACAE47C30D9B9171F220CBA8FF /* Pods-DYZBUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ED3A74B28945389AD7EB06D792EBAD /* Pods-DYZBUITests-dummy.m */; };
+		777750A393F653A4E6F4AC4FBCD4ADAA /* Pods-DYZB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB74243B58066B69F5F947EE0995EB2F /* Pods-DYZB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDAC5479384C011BF9195CBDFEF8CA9 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4131A600DCD0D770B663D6CB8C120 /* RAMFumeAnimation.swift */; };
+		81A35D286E60B4CDB849A51DD7A82816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		83E46FA08EFBC4953E9C9625C969F183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		853ABBFFAD713BCCF7E55090D2E6603B /* Pods-DYZBUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F988E9AD056B4241E05766F39B7B03F8 /* Pods-DYZBUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DD07077376AD49505E342220E9350BB /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979ADF614DF1A97FE7756A4070A59038 /* RAMRotationAnimation.swift */; };
+		93542A25F174E65924871546186DE578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		995BC26D55C8B513B1D8B1A901920A15 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A496F3829B8558F8915707A639305862 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD8054D02AC6DE1AB230FEA60C2B27B /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D9476B30E71AA602CABEB210D85FD /* RAMFrameItemAnimation.swift */; };
+		AB0AF7F7FD02A362FA836B40FC1448DF /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D43E1D1534E4FB3A946B3C53E601A /* RAMBadge.swift */; };
+		DB5089679BD4B852F766CE34B45FD804 /* Pods-DYZB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BF00334455A1AF152C0BC87C833F1C /* Pods-DYZB-dummy.m */; };
+		EA7614173DBE8F7B4B4720DBAE689BF1 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930E0E293313E90498EE50EC42CFA36 /* RAMTransitionItemAnimations.swift */; };
+		EDCA605EA0DBEF580EFFB206293BCBC5 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA10CC6749899CDDF6CC2D8FD0D6A25 /* RAMAnimatedTabBarController.swift */; };
+		EE5317E3D8EA7DA86DDF7CA7FC718BCC /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E209E794A16F018B687CE0957FA015A /* RAMBounceAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56C607343BB5E6B114F6505032D26C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46F9C323C2695F2F898BE7F055716BD;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+		703B6728BC3ED45A978809AFD31BE513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F9D84529FE021FCE4A8E2DDD2B0D41;
+			remoteInfo = "Pods-DYZB";
+		};
+		7F4339FAEB70F9EDB9EC579447A680BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F9D84529FE021FCE4A8E2DDD2B0D41;
+			remoteInfo = "Pods-DYZB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088632B3E51337A84F6BA1B1997B6E2F /* Pods-DYZBTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYZBTests.modulemap"; sourceTree = "<group>"; };
+		12FC1CB77E8DF6DF9586965225EA6E0D /* Pods-DYZBTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYZBTests-umbrella.h"; sourceTree = "<group>"; };
+		1BB4131A600DCD0D770B663D6CB8C120 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		22CE4BD7DF90F4401F4769E17BE08446 /* Pods-DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYZB.debug.xcconfig"; sourceTree = "<group>"; };
+		2350BB51B6922B192EE441E49F7AC530 /* Pods-DYZBTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYZBTests-resources.sh"; sourceTree = "<group>"; };
+		24C63A22EBD8A8AA7CA6ED1D9AD8C5B3 /* Pods_DYZBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYZBUITests.framework; path = "Pods-DYZBUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		260EB29ECAE6E311F1BF2F8A543F019F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5290DD1F6B543189B401610CF2DEA6 /* Pods-DYZB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYZB-acknowledgements.plist"; sourceTree = "<group>"; };
+		35CBC45640465D604286DFC1D40830C0 /* Pods-DYZB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYZB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37035564718D2A39A55CF211819D185F /* Pods-DYZBUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYZBUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FBDB8E0CD3E6FA8C13AB15F70CD7936 /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RAMAnimatedTabBarController+BottomLine.swift"; path = "RAMAnimatedTabBarController/RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		40174680468E3A3C449A0D9CFBBCCBE9 /* Pods-DYZBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYZBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41A61E2389A42037CAAB2974B5E2C701 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		489F97C15FFC83E18B7C248BD07F9D6F /* Pods-DYZBUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYZBUITests.modulemap"; sourceTree = "<group>"; };
+		4B4F7045D1681DC5EC7A65D6741A2DA3 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		4FC006085ADBE835442669867EDC77F1 /* Pods-DYZBTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYZBTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5930E0E293313E90498EE50EC42CFA36 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CCC491AA595B5A84BB95BE145E6C8B3 /* Pods-DYZBUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYZBUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		659167013CF3B42A8D242A934F78FB0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E72DEED1FDA3BF8278BF8BC1D1D972 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F479EEEBE625A0110C23D238AA633D /* Pods-DYZBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYZBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67ED3A74B28945389AD7EB06D792EBAD /* Pods-DYZBUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYZBUITests-dummy.m"; sourceTree = "<group>"; };
+		69A68201E3417E5DB76A532DE408A454 /* Pods-DYZB-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYZB-frameworks.sh"; sourceTree = "<group>"; };
+		6D84EC3F35A209A3AFA85FAA6EB7CB18 /* Pods_DYZB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYZB.framework; path = "Pods-DYZB.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E209E794A16F018B687CE0957FA015A /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		856E355EA9CE76E895A2417B5530ED02 /* Pods-DYZBTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYZBTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85DCBD5F851737F38FBE21332489C32F /* Pods-DYZBTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYZBTests-frameworks.sh"; sourceTree = "<group>"; };
+		8AA10CC6749899CDDF6CC2D8FD0D6A25 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		8E821836B8C71D33DBE062CD290E700B /* Pods-DYZBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYZBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F7F01A7E341512E16687EC7E8E56E66 /* Pods-DYZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYZB.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DB347EEB436F0A9F28EC9C7A5874A9 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		979ADF614DF1A97FE7756A4070A59038 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		988E08C16C20ECDA53196D8B811CF0BC /* Pods-DYZBUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYZBUITests-resources.sh"; sourceTree = "<group>"; };
+		A07C42425965EA21D735BD657B8FED55 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		A496F3829B8558F8915707A639305862 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		A5D71C131DC4D79D0ACFF72D6CE5491C /* Pods-DYZBUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYZBUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A8F904430A8D3CC8E504A907BDC97CC1 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		B4C270C815D6DAB2CB85ECEFFD907416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48EBC41C1AFD387B655B7E954090F07 /* Pods_DYZBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYZBTests.framework; path = "Pods-DYZBTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C836F178ACEEC3E49EF522C8047D25FC /* Pods-DYZB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYZB.modulemap"; sourceTree = "<group>"; };
+		CD5D43E1D1534E4FB3A946B3C53E601A /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		D03D9476B30E71AA602CABEB210D85FD /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		D434A1A581FDA1296B11409779B7EAA4 /* Pods-DYZB-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYZB-resources.sh"; sourceTree = "<group>"; };
+		E1BF00334455A1AF152C0BC87C833F1C /* Pods-DYZB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYZB-dummy.m"; sourceTree = "<group>"; };
+		E667828C58C1B73E87644D175F1609A7 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78DEAB73BB3CA113CCC0B2EADB44FE7 /* Pods-DYZBTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYZBTests-dummy.m"; sourceTree = "<group>"; };
+		F988E9AD056B4241E05766F39B7B03F8 /* Pods-DYZBUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYZBUITests-umbrella.h"; sourceTree = "<group>"; };
+		FB74243B58066B69F5F947EE0995EB2F /* Pods-DYZB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYZB-umbrella.h"; sourceTree = "<group>"; };
+		FF20C4F290EE73A0E12C01536BF74A2D /* Pods-DYZBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYZBTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4195FB19AADCA28C102FCCCE805F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E46FA08EFBC4953E9C9625C969F183 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AB28C84200D3A1A5ED6468D99B1205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A35D286E60B4CDB849A51DD7A82816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86566CC0FBCD1CE2CA22015663B6D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93542A25F174E65924871546186DE578 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E88000CA9E0DC834E2AED8EDD31408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26993479AB227BE71F25E0A7F9396B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585244801A64364E888A14CEBFEF5119 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8AA10CC6749899CDDF6CC2D8FD0D6A25 /* RAMAnimatedTabBarController.swift */,
+				3FBDB8E0CD3E6FA8C13AB15F70CD7936 /* RAMAnimatedTabBarController+BottomLine.swift */,
+				CD5D43E1D1534E4FB3A946B3C53E601A /* RAMBadge.swift */,
+				7E209E794A16F018B687CE0957FA015A /* RAMBounceAnimation.swift */,
+				D03D9476B30E71AA602CABEB210D85FD /* RAMFrameItemAnimation.swift */,
+				1BB4131A600DCD0D770B663D6CB8C120 /* RAMFumeAnimation.swift */,
+				4B4F7045D1681DC5EC7A65D6741A2DA3 /* RAMItemAnimationProtocol.swift */,
+				979ADF614DF1A97FE7756A4070A59038 /* RAMRotationAnimation.swift */,
+				5930E0E293313E90498EE50EC42CFA36 /* RAMTransitionItemAnimations.swift */,
+				A33557A04F550028897D3987D41CBA2A /* Support Files */,
+			);
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		693FC9D84CC8F53E35D6DFEDA83D3655 /* Pods-DYZBTests */ = {
+			isa = PBXGroup;
+			children = (
+				66E72DEED1FDA3BF8278BF8BC1D1D972 /* Info.plist */,
+				088632B3E51337A84F6BA1B1997B6E2F /* Pods-DYZBTests.modulemap */,
+				856E355EA9CE76E895A2417B5530ED02 /* Pods-DYZBTests-acknowledgements.markdown */,
+				4FC006085ADBE835442669867EDC77F1 /* Pods-DYZBTests-acknowledgements.plist */,
+				E78DEAB73BB3CA113CCC0B2EADB44FE7 /* Pods-DYZBTests-dummy.m */,
+				85DCBD5F851737F38FBE21332489C32F /* Pods-DYZBTests-frameworks.sh */,
+				2350BB51B6922B192EE441E49F7AC530 /* Pods-DYZBTests-resources.sh */,
+				12FC1CB77E8DF6DF9586965225EA6E0D /* Pods-DYZBTests-umbrella.h */,
+				40174680468E3A3C449A0D9CFBBCCBE9 /* Pods-DYZBTests.debug.xcconfig */,
+				FF20C4F290EE73A0E12C01536BF74A2D /* Pods-DYZBTests.release.xcconfig */,
+			);
+			name = "Pods-DYZBTests";
+			path = "Target Support Files/Pods-DYZBTests";
+			sourceTree = "<group>";
+		};
+		718F8DA3097A4CB2FE5AA328C42B1973 /* Pods-DYZB */ = {
+			isa = PBXGroup;
+			children = (
+				659167013CF3B42A8D242A934F78FB0D /* Info.plist */,
+				C836F178ACEEC3E49EF522C8047D25FC /* Pods-DYZB.modulemap */,
+				35CBC45640465D604286DFC1D40830C0 /* Pods-DYZB-acknowledgements.markdown */,
+				2B5290DD1F6B543189B401610CF2DEA6 /* Pods-DYZB-acknowledgements.plist */,
+				E1BF00334455A1AF152C0BC87C833F1C /* Pods-DYZB-dummy.m */,
+				69A68201E3417E5DB76A532DE408A454 /* Pods-DYZB-frameworks.sh */,
+				D434A1A581FDA1296B11409779B7EAA4 /* Pods-DYZB-resources.sh */,
+				FB74243B58066B69F5F947EE0995EB2F /* Pods-DYZB-umbrella.h */,
+				22CE4BD7DF90F4401F4769E17BE08446 /* Pods-DYZB.debug.xcconfig */,
+				8F7F01A7E341512E16687EC7E8E56E66 /* Pods-DYZB.release.xcconfig */,
+			);
+			name = "Pods-DYZB";
+			path = "Target Support Files/Pods-DYZB";
+			sourceTree = "<group>";
+		};
+		77FC98F70480E6F1619F039A880BD13F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				585244801A64364E888A14CEBFEF5119 /* RAMAnimatedTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77FC98F70480E6F1619F039A880BD13F /* Pods */,
+				C67148C4E6009D96DB373C9B41A81B0D /* Products */,
+				AE74BE2D0C760801685DE9409B0665EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A33557A04F550028897D3987D41CBA2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4C270C815D6DAB2CB85ECEFFD907416 /* Info.plist */,
+				41A61E2389A42037CAAB2974B5E2C701 /* RAMAnimatedTabBarController.modulemap */,
+				A8F904430A8D3CC8E504A907BDC97CC1 /* RAMAnimatedTabBarController.xcconfig */,
+				A07C42425965EA21D735BD657B8FED55 /* RAMAnimatedTabBarController-dummy.m */,
+				96DB347EEB436F0A9F28EC9C7A5874A9 /* RAMAnimatedTabBarController-prefix.pch */,
+				A496F3829B8558F8915707A639305862 /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		A4F35A8332D052E3E510E757046C144F /* Pods-DYZBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				260EB29ECAE6E311F1BF2F8A543F019F /* Info.plist */,
+				489F97C15FFC83E18B7C248BD07F9D6F /* Pods-DYZBUITests.modulemap */,
+				5CCC491AA595B5A84BB95BE145E6C8B3 /* Pods-DYZBUITests-acknowledgements.markdown */,
+				37035564718D2A39A55CF211819D185F /* Pods-DYZBUITests-acknowledgements.plist */,
+				67ED3A74B28945389AD7EB06D792EBAD /* Pods-DYZBUITests-dummy.m */,
+				A5D71C131DC4D79D0ACFF72D6CE5491C /* Pods-DYZBUITests-frameworks.sh */,
+				988E08C16C20ECDA53196D8B811CF0BC /* Pods-DYZBUITests-resources.sh */,
+				F988E9AD056B4241E05766F39B7B03F8 /* Pods-DYZBUITests-umbrella.h */,
+				66F479EEEBE625A0110C23D238AA633D /* Pods-DYZBUITests.debug.xcconfig */,
+				8E821836B8C71D33DBE062CD290E700B /* Pods-DYZBUITests.release.xcconfig */,
+			);
+			name = "Pods-DYZBUITests";
+			path = "Target Support Files/Pods-DYZBUITests";
+			sourceTree = "<group>";
+		};
+		AE74BE2D0C760801685DE9409B0665EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				718F8DA3097A4CB2FE5AA328C42B1973 /* Pods-DYZB */,
+				693FC9D84CC8F53E35D6DFEDA83D3655 /* Pods-DYZBTests */,
+				A4F35A8332D052E3E510E757046C144F /* Pods-DYZBUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67148C4E6009D96DB373C9B41A81B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D84EC3F35A209A3AFA85FAA6EB7CB18 /* Pods_DYZB.framework */,
+				C48EBC41C1AFD387B655B7E954090F07 /* Pods_DYZBTests.framework */,
+				24C63A22EBD8A8AA7CA6ED1D9AD8C5B3 /* Pods_DYZBUITests.framework */,
+				E667828C58C1B73E87644D175F1609A7 /* RAMAnimatedTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F467E6CFF004CC133BD8015DDA19238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777750A393F653A4E6F4AC4FBCD4ADAA /* Pods-DYZB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A978F6764836257189EBFC1BCD5082 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF3C3483393EC9C5713F5C4A36AD43 /* Pods-DYZBTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D21E5B382E87C340B469F6C8FA087 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995BC26D55C8B513B1D8B1A901920A15 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C839296C64775B33C2A188A0AC160E02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853ABBFFAD713BCCF7E55090D2E6603B /* Pods-DYZBUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		247500158F6126AA2D081851483383D7 /* Pods-DYZBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918357C10FA4784D807617E9074A0056 /* Build configuration list for PBXNativeTarget "Pods-DYZBUITests" */;
+			buildPhases = (
+				52FFFA28623BCB3560E1C8738D4CAD31 /* Sources */,
+				F6E88000CA9E0DC834E2AED8EDD31408 /* Frameworks */,
+				C839296C64775B33C2A188A0AC160E02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661DECF5D12D44EF60E2CF76707BCC01 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYZBUITests";
+			productName = "Pods-DYZBUITests";
+			productReference = 24C63A22EBD8A8AA7CA6ED1D9AD8C5B3 /* Pods_DYZBUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38F9D84529FE021FCE4A8E2DDD2B0D41 /* Pods-DYZB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DADD882E77011E17F019550859CEED3 /* Build configuration list for PBXNativeTarget "Pods-DYZB" */;
+			buildPhases = (
+				CD88D38EED6DE19A79F29CE211F8EA9E /* Sources */,
+				50AB28C84200D3A1A5ED6468D99B1205 /* Frameworks */,
+				4F467E6CFF004CC133BD8015DDA19238 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE53E655984E7E33CF9724715371EE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYZB";
+			productName = "Pods-DYZB";
+			productReference = 6D84EC3F35A209A3AFA85FAA6EB7CB18 /* Pods_DYZB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9843F2CB45B734F6550FB2774E85329B /* Pods-DYZBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6E8382DC1ED7BA80111BB0BBAC9267 /* Build configuration list for PBXNativeTarget "Pods-DYZBTests" */;
+			buildPhases = (
+				453F3A5D56F02403CAEB48B403E141E7 /* Sources */,
+				3E4195FB19AADCA28C102FCCCE805F19 /* Frameworks */,
+				63A978F6764836257189EBFC1BCD5082 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CFCD2F4A1E10085612831F16B7AF06 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYZBTests";
+			productName = "Pods-DYZBTests";
+			productReference = C48EBC41C1AFD387B655B7E954090F07 /* Pods_DYZBTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C46F9C323C2695F2F898BE7F055716BD /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B050E4BE2AAE1ED42208A504133B8175 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				FB63F60768E5991349514176B696E753 /* Sources */,
+				C86566CC0FBCD1CE2CA22015663B6D7C /* Frameworks */,
+				C49D21E5B382E87C340B469F6C8FA087 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = E667828C58C1B73E87644D175F1609A7 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C67148C4E6009D96DB373C9B41A81B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F9D84529FE021FCE4A8E2DDD2B0D41 /* Pods-DYZB */,
+				9843F2CB45B734F6550FB2774E85329B /* Pods-DYZBTests */,
+				247500158F6126AA2D081851483383D7 /* Pods-DYZBUITests */,
+				C46F9C323C2695F2F898BE7F055716BD /* RAMAnimatedTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453F3A5D56F02403CAEB48B403E141E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC2EB30C1CD9E67E5CFFFA607F26559 /* Pods-DYZBTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FFFA28623BCB3560E1C8738D4CAD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736D6EACAE47C30D9B9171F220CBA8FF /* Pods-DYZBUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88D38EED6DE19A79F29CE211F8EA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5089679BD4B852F766CE34B45FD804 /* Pods-DYZB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63F60768E5991349514176B696E753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241934F42AF45DD6AB7B9B3DFAF0C589 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				07BF5A4E8D377815E9925C58321A31E4 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				EDCA605EA0DBEF580EFFB206293BCBC5 /* RAMAnimatedTabBarController.swift in Sources */,
+				AB0AF7F7FD02A362FA836B40FC1448DF /* RAMBadge.swift in Sources */,
+				EE5317E3D8EA7DA86DDF7CA7FC718BCC /* RAMBounceAnimation.swift in Sources */,
+				9BD8054D02AC6DE1AB230FEA60C2B27B /* RAMFrameItemAnimation.swift in Sources */,
+				7DDAC5479384C011BF9195CBDFEF8CA9 /* RAMFumeAnimation.swift in Sources */,
+				03C55CD479988E011CFD34F6A3953E9E /* RAMItemAnimationProtocol.swift in Sources */,
+				8DD07077376AD49505E342220E9350BB /* RAMRotationAnimation.swift in Sources */,
+				EA7614173DBE8F7B4B4720DBAE689BF1 /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17CFCD2F4A1E10085612831F16B7AF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYZB";
+			target = 38F9D84529FE021FCE4A8E2DDD2B0D41 /* Pods-DYZB */;
+			targetProxy = 703B6728BC3ED45A978809AFD31BE513 /* PBXContainerItemProxy */;
+		};
+		1FE53E655984E7E33CF9724715371EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = C46F9C323C2695F2F898BE7F055716BD /* RAMAnimatedTabBarController */;
+			targetProxy = 56C607343BB5E6B114F6505032D26C7E /* PBXContainerItemProxy */;
+		};
+		661DECF5D12D44EF60E2CF76707BCC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DYZB";
+			target = 38F9D84529FE021FCE4A8E2DDD2B0D41 /* Pods-DYZB */;
+			targetProxy = 7F4339FAEB70F9EDB9EC579447A680BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38B4C7ADB77661A40DBB7D527A3B5D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F904430A8D3CC8E504A907BDC97CC1 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4656048B5D9676F76E8F73C07CF8A299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF20C4F290EE73A0E12C01536BF74A2D /* Pods-DYZBTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYZBTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYZBTests/Pods-DYZBTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F7AF0069EB5CBC5D2BC359886F9E898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7F01A7E341512E16687EC7E8E56E66 /* Pods-DYZB.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYZB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYZB/Pods-DYZB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8848E6DFBB492CDAE51CE1ECAA8AD32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F479EEEBE625A0110C23D238AA633D /* Pods-DYZBUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYZBUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYZBUITests/Pods-DYZBUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E55BDA8D64A91CF134C4C17613EA342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F904430A8D3CC8E504A907BDC97CC1 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0DF1DBBDDEA65664510B04D15968B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E821836B8C71D33DBE062CD290E700B /* Pods-DYZBUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYZBUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYZBUITests/Pods-DYZBUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA1193E27F9DF84DD769D9554EBD40EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40174680468E3A3C449A0D9CFBBCCBE9 /* Pods-DYZBTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYZBTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYZBTests/Pods-DYZBTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF8DECC0CD78AE41B1149C4425616F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CE4BD7DF90F4401F4769E17BE08446 /* Pods-DYZB.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DYZB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYZB/Pods-DYZB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DADD882E77011E17F019550859CEED3 /* Build configuration list for PBXNativeTarget "Pods-DYZB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8DECC0CD78AE41B1149C4425616F89 /* Debug */,
+				7F7AF0069EB5CBC5D2BC359886F9E898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918357C10FA4784D807617E9074A0056 /* Build configuration list for PBXNativeTarget "Pods-DYZBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8848E6DFBB492CDAE51CE1ECAA8AD32F /* Debug */,
+				D0DF1DBBDDEA65664510B04D15968B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B050E4BE2AAE1ED42208A504133B8175 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E55BDA8D64A91CF134C4C17613EA342 /* Debug */,
+				38B4C7ADB77661A40DBB7D527A3B5D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6E8382DC1ED7BA80111BB0BBAC9267 /* Build configuration list for PBXNativeTarget "Pods-DYZBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1193E27F9DF84DD769D9554EBD40EA /* Debug */,
+				4656048B5D9676F76E8F73C07CF8A299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
