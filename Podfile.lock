@@ -1,20 +1,28 @@
 PODS:
   - Alamofire (4.7.3)
+  - HandyJSON (4.1.1)
+  - Kingfisher (4.8.0)
   - RAMAnimatedTabBarController (3.5.0)
 
 DEPENDENCIES:
   - Alamofire
+  - HandyJSON
+  - Kingfisher
   - RAMAnimatedTabBarController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - HandyJSON
+    - Kingfisher
     - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
   RAMAnimatedTabBarController: 7e259e89b669c7bc833a6441c7d8fbfd6580f473
 
-PODFILE CHECKSUM: 6a9e071e2f2011358dab59e6672ffdd533fd699b
+PODFILE CHECKSUM: 58301f019386791084652cf1f764ca0fcad1e3c7
 
 COCOAPODS: 1.5.2

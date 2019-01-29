@@ -61,6 +61,10 @@
                 <constraint firstItem="FfV-jA-CYf" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="10" id="va2-QA-LNX"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="iconView" destination="FfV-jA-CYf" id="Imt-aN-KPP"/>
+                <outlet property="titleLab" destination="PIO-Ei-W5Z" id="7EF-Ll-ybV"/>
+            </connections>
             <point key="canvasLocation" x="-10" y="-7"/>
         </collectionReusableView>
     </objects>

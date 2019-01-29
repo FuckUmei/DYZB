@@ -19,15 +19,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UITabBar.appearance().tintColor = UIColor.orange
         
-//        Alamofire.request("http://httpbin.org/get").responseJSON { (response) in
+//        Alamofire.request("https://httpbin.org/get", method: .get).responseJSON { (response) in
 //            guard let result = response.result.value else {
 //                print((response.result.error)!)
 //                return
 //            }
-//
 //            print(result)
 //        }
         
+//        Alamofire.request("https://httpbin.org/post", method: .post, parameters: ["name" : "specter"]).responseJSON { (reponse) in
+//            guard let result = reponse.result.value else {
+//                print((reponse.result.error)!)
+//                return
+//            }
+//            print(result)
+//        }
+        
+//        NetWorkTool.requestData(.get, URLString: "https://httpbin.org/get") { (result) in
+//            print(result)
+//        }
+        
+//        NetWorkTool.requestData(.post, URLString: "https://httpbin.org/post", parameters:["name" : "specter"]) { (result) in
+//            print(result)
+//        }
         
         return true
     }

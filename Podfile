@@ -8,6 +8,8 @@ target 'DYZB' do
   # Pods for DYZB
   pod 'RAMAnimatedTabBarController'
   pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'HandyJSON'
   
   target 'DYZBTests' do
     inherit! :search_paths
