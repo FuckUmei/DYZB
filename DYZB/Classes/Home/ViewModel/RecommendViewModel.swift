@@ -13,6 +13,7 @@ class RecommendViewModel {
     lazy var anchorGroup : [AnchorGroup] = [AnchorGroup]()
     fileprivate lazy var bigDataGroups : AnchorGroup = AnchorGroup()
     fileprivate lazy var pretyGroups : AnchorGroup = AnchorGroup()
+    lazy var cycleModels : [CycleModel] = [CycleModel]()
 }
 
 
@@ -24,9 +25,11 @@ extension RecommendViewModel {
         //            return
         //        }
 //        let parameters = ["limit" : "4", "offset" : "0", "time" : Date.getCurrentTime()]
-//        NetWorkTool.requestData(URLString: "http://capi.douyucdn.cn/api/v1/getbigDataRoom", type: .get, parameter: ["time" : Date.getCurrentTime()]) { (result) in
+//        NetWorkTool.requestData(URLString: "http://www.douyutv.com/api/v1/slide/6", type: .get, parameter: ["version" : "2.300"]) { (result) in
 //            print(result)
 //        }
+        
+        
         let disGroup = DispatchGroup()
      
         disGroup.enter()
@@ -94,6 +97,24 @@ extension RecommendViewModel {
             finishCallback()
         }
         
+    }
+    
+    // 获取轮播数据
+    func requstCycleData(_ finishCallback : @escaping () -> () ){
+        
+        let dicPrety = GlobalHelper.loadBundlePath(strName: "slide", strType: "json")
+        guard let preArray = dicPrety["data"] as? [[String:NSObject]] else {
+            return
+        }
+       
+        for dict in preArray {
+            guard let model = CycleModel.deserialize(from: dict) else {
+                return
+            }
+            self.cycleModels.append(model)
+//            print(model.room.room_name)
+        }
+        finishCallback()
     }
     
 }

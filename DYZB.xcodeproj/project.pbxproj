@@ -16,6 +16,12 @@
 		D70E95D22200451100436ADA /* getVerticalRoom.json in Resources */ = {isa = PBXBuildFile; fileRef = D70E95D12200451100436ADA /* getVerticalRoom.json */; };
 		D70E95D4220046BA00436ADA /* getbigDataRoom.json in Resources */ = {isa = PBXBuildFile; fileRef = D70E95D3220046BA00436ADA /* getbigDataRoom.json */; };
 		D70E95D8220072CF00436ADA /* CollectionViewBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E95D7220072CF00436ADA /* CollectionViewBaseCell.swift */; };
+		D70E95DA2202045B00436ADA /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E95D92202045B00436ADA /* RecommendCycleView.swift */; };
+		D70E95DC2202046900436ADA /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70E95DB2202046900436ADA /* RecommendCycleView.xib */; };
+		D70E95DE2202BD4400436ADA /* slide.json in Resources */ = {isa = PBXBuildFile; fileRef = D70E95DD2202BD4400436ADA /* slide.json */; };
+		D70E95E02202BE4800436ADA /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E95DF2202BE4800436ADA /* CycleModel.swift */; };
+		D70E95E32202D46E00436ADA /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E95E12202D46E00436ADA /* CollectionCycleCell.swift */; };
+		D70E95E42202D46E00436ADA /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70E95E22202D46E00436ADA /* CollectionCycleCell.xib */; };
 		D757B8D121EC768A0070AA34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757B8D021EC768A0070AA34 /* HomeViewController.swift */; };
 		D757B8D421EC907B0070AA34 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757B8D321EC907B0070AA34 /* UIBarButtonItem+Extension.swift */; };
 		D757B8D621EDBA300070AA34 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757B8D521EDBA300070AA34 /* PageTitleView.swift */; };
@@ -80,6 +86,12 @@
 		D70E95D12200451100436ADA /* getVerticalRoom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getVerticalRoom.json; sourceTree = "<group>"; };
 		D70E95D3220046BA00436ADA /* getbigDataRoom.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = getbigDataRoom.json; sourceTree = "<group>"; };
 		D70E95D7220072CF00436ADA /* CollectionViewBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewBaseCell.swift; sourceTree = "<group>"; };
+		D70E95D92202045B00436ADA /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		D70E95DB2202046900436ADA /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		D70E95DD2202BD4400436ADA /* slide.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = slide.json; sourceTree = "<group>"; };
+		D70E95DF2202BE4800436ADA /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		D70E95E12202D46E00436ADA /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		D70E95E22202D46E00436ADA /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
 		D757B8D021EC768A0070AA34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D757B8D321EC907B0070AA34 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		D757B8D521EDBA300070AA34 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
@@ -225,6 +237,7 @@
 		D757B8CB21EC70190070AA34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D70E95DF2202BE4800436ADA /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +247,10 @@
 			children = (
 				D757B8DF21F86AF10070AA34 /* CollectionHeaderView.swift */,
 				D757B8E021F86AF10070AA34 /* CollectionHeaderView.xib */,
+				D70E95D92202045B00436ADA /* RecommendCycleView.swift */,
+				D70E95DB2202046900436ADA /* RecommendCycleView.xib */,
+				D70E95E12202D46E00436ADA /* CollectionCycleCell.swift */,
+				D70E95E22202D46E00436ADA /* CollectionCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +300,7 @@
 				D70E95D12200451100436ADA /* getVerticalRoom.json */,
 				D76D365D21FEF16F00CA840A /* hotache.json */,
 				D70E95D3220046BA00436ADA /* getbigDataRoom.json */,
+				D70E95DD2202BD4400436ADA /* slide.json */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -388,12 +406,12 @@
 		D7B1477F21E4864B009981D3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D757B8C921EC70040070AA34 /* Controller */,
-				D757B8C821EC70040070AA34 /* Model */,
-				D757B8C721EC6FFB0070AA34 /* View */,
 				D7750F1C21E766A70009405B /* Discovery.storyboard */,
 				D7750F1E21E766A70009405B /* Yuba.storyboard */,
 				D7B1474B21E4742F009981D3 /* Main.storyboard */,
+				D757B8C921EC70040070AA34 /* Controller */,
+				D757B8C821EC70040070AA34 /* Model */,
+				D757B8C721EC6FFB0070AA34 /* View */,
 				D7750F2521E7A4E20009405B /* MainViewController.swift */,
 			);
 			path = Main;
@@ -530,9 +548,12 @@
 			files = (
 				D76D365E21FEF16F00CA840A /* hotache.json in Resources */,
 				D757B8EA21F887800070AA34 /* CollectionPretyCell.xib in Resources */,
+				D70E95E42202D46E00436ADA /* CollectionCycleCell.xib in Resources */,
 				D7750F2121E766A70009405B /* Discovery.storyboard in Resources */,
+				D70E95DE2202BD4400436ADA /* slide.json in Resources */,
 				D7B1475221E4742F009981D3 /* LaunchScreen.storyboard in Resources */,
 				D757B8E621F87CE40070AA34 /* CollectionNormalCell.xib in Resources */,
+				D70E95DC2202046900436ADA /* RecommendCycleView.xib in Resources */,
 				D7750F1621E765F70009405B /* Recommend.storyboard in Resources */,
 				D7B1474F21E4742F009981D3 /* Assets.xcassets in Resources */,
 				D7B1474D21E4742F009981D3 /* Main.storyboard in Resources */,
@@ -653,6 +674,7 @@
 				D7B1474821E4742F009981D3 /* AppDelegate.swift in Sources */,
 				D757B8DE21F853440070AA34 /* RecommendViewController.swift in Sources */,
 				D70E95C521FEFED100436ADA /* AnchorGroup.swift in Sources */,
+				D70E95E02202BE4800436ADA /* CycleModel.swift in Sources */,
 				D757B8E921F887800070AA34 /* CollectionPretyCell.swift in Sources */,
 				D757B8D621EDBA300070AA34 /* PageTitleView.swift in Sources */,
 				D757B8F821FB09E90070AA34 /* NSDate+Extension.swift in Sources */,
@@ -663,8 +685,10 @@
 				D70E95CB22003A1E00436ADA /* GlobalHelper.swift in Sources */,
 				D757B8E521F87CE40070AA34 /* CollectionNormalCell.swift in Sources */,
 				D757B8DC21EED7520070AA34 /* UIColor+Extension.swift in Sources */,
+				D70E95DA2202045B00436ADA /* RecommendCycleView.swift in Sources */,
 				D757B8FB21FB0B140070AA34 /* RecommendViewModel.swift in Sources */,
 				D757B8F621FAFE6E0070AA34 /* NetWorkTool.swift in Sources */,
+				D70E95E32202D46E00436ADA /* CollectionCycleCell.swift in Sources */,
 				D70E95C721FF64D000436ADA /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

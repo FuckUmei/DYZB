@@ -19,9 +19,17 @@ fileprivate let kNormalCellID = "kNormalCellID"
 fileprivate let kPretyCellID = "kPretyCellID"
 fileprivate let kHeaderViewID = "kHeaderViewID"
 
+fileprivate let kCycleViewH = kScreenW * 3 / 8
+
 class RecommendViewController: UIViewController {
 
     fileprivate lazy var recommedVM : RecommendViewModel = RecommendViewModel()
+    
+    fileprivate lazy var cycleView : RecommendCycleView = {[weak self] in
+        let cycleView = RecommendCycleView.recommendCycleView()
+        cycleView.frame = CGRect(x: 0, y: -kCycleViewH, width: kScreenW, height: kCycleViewH)
+        return cycleView
+    }()
     
     fileprivate lazy var collectionView : UICollectionView = {[weak self] in
         
@@ -68,7 +76,13 @@ class RecommendViewController: UIViewController {
 
 extension RecommendViewController {
     fileprivate func setupUI() {
+        
         view.addSubview(collectionView)
+        
+        collectionView.addSubview(cycleView)
+        // 4.设置collectionView的内边距
+        collectionView.contentInset = UIEdgeInsets(top: kCycleViewH, left: 0, bottom: 0, right: 0)
+        
     }
 }
 
@@ -76,6 +90,10 @@ extension RecommendViewController {
     fileprivate func loadData(){
         recommedVM.requstData(){
             self.collectionView.reloadData()
+        }
+        
+        recommedVM.requstCycleData {
+            self.cycleView.cycleModels = self.recommedVM.cycleModels
         }
     }
 }

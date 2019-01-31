@@ -1,0 +1,372 @@
+{
+    "error": 0,
+    "data": [
+             {
+             "id": 267839,
+             "main_id": 72719,
+             "source": 2,
+             "oa_source": 21,
+             "title": "吉安娜首杀争夺赛",
+             "pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/23/990f67add5a07720a506c389c705399d.jpg",
+             "tv_pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/23/82ee6656007c1237c3390669fcbd9b73.jpg",
+             "room": {
+             "room_id": "267839",
+             "room_src": "https://rpic.douyucdn.cn/asrpic/190131/267839_1317.png/dy1",
+             "vertical_src": "https://rpic.douyucdn.cn/asrpic/190131/267839_1317.png/dy1",
+             "isVertical": 0,
+             "cate_id": "5",
+             "room_name": "我是个可有可无的攻强机器",
+             "vod_quality": "0",
+             "show_status": "1",
+             "show_time": "1548891926",
+             "owner_uid": "1629638",
+             "specific_catalog": "",
+             "specific_status": "0",
+             "credit_illegal": "0",
+             "is_white_list": "0",
+             "cur_credit": "12",
+             "low_credit": "4",
+             "online": 6837,
+             "nickname": "圈圈蜀黍",
+             "url": "/267839",
+             "game_url": "/g_WOW",
+             "game_name": "魔兽世界",
+             "game_icon_url": "https://cs-op.douyucdn.cn/dycatr/game_cate/b6ae05443687a28ab177e3ff17de1590.jpg",
+             "show_details": "群号：365298823 546673253  362121678   609136253   \nRua！~",
+             "owner_avatar": "https://apic.douyucdn.cn/upload/avatar_v3/201812/5b226788a99dc7416aa1d55d55692bdb_big.jpg?rltime?rltime",
+             "cdnsWithName": [
+                              {
+                              "name": "主线路",
+                              "cdn": "ws"
+                              },
+                              {
+                              "name": "备用线路5",
+                              "cdn": "tct"
+                              },
+                              {
+                              "name": "备用线路2",
+                              "cdn": "ws2"
+                              }
+                              ],
+             "is_pass_player": 0,
+             "open_full_screen": 0,
+             "nrt": "0",
+             "owner_weight": "0g",
+             "fans": "95156",
+             "column_id": "1",
+             "cate_limit": {
+             "limit_type": 0,
+             "limit_num": 0,
+             "limit_threshold": 0,
+             "limit_time": 0
+             }
+             }
+             },
+             {
+             "id": 5478401,
+             "main_id": 72801,
+             "source": 2,
+             "oa_source": 21,
+             "title": "CF手游《最终12小时》",
+             "pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/24/be42b1a552b24263dd2ef01b0f99eb76.jpg",
+             "tv_pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/24/b470351195f7e6c7eb2273ee6e1e0454.jpg",
+             "room": {
+             "room_id": "5478401",
+             "room_src": "https://rpic.douyucdn.cn/asrpic/190131/5478401_1318.png/dy1",
+             "vertical_src": "https://rpic.douyucdn.cn/asrpic/190131/5478401_1318.png/dy1",
+             "isVertical": 0,
+             "cate_id": "178",
+             "room_name": "元气新年签 ，求助力！",
+             "vod_quality": "0",
+             "show_status": "1",
+             "show_time": "1548908119",
+             "owner_uid": "212225692",
+             "specific_catalog": "",
+             "specific_status": "0",
+             "credit_illegal": "0",
+             "is_white_list": "0",
+             "cur_credit": "12",
+             "low_credit": "4",
+             "online": 2259,
+             "nickname": "小冰曦",
+             "url": "/5478401",
+             "game_url": "/g_CFSY",
+             "game_name": "CF手游",
+             "game_icon_url": "https://cs-op.douyucdn.cn/dycatr/game_cate/60e3c09222f689e73724f6e26489c365.jpg",
+             "show_details": "直播时间：早上10:00—14:00   晚上20:00—24:00。QQ群：628613846       有粉丝牌的小可爱 每天有免费的荧光棒可以用来升级牌牌哦^_^   自愿改名格式：带有 冰曦 或者 曦曦 都可以 ❤️❤️❤️",
+             "owner_avatar": "https://apic.douyucdn.cn/upload/avatar_v3/201808/970ba0ab6a4f0053093ef19772f1876d_big.jpg?rltime?rltime",
+             "cdnsWithName": [
+                              {
+                              "name": "主线路",
+                              "cdn": "ws"
+                              },
+                              {
+                              "name": "备用线路5",
+                              "cdn": "tct"
+                              },
+                              {
+                              "name": "备用线路2",
+                              "cdn": "ws2"
+                              }
+                              ],
+             "is_pass_player": 0,
+             "open_full_screen": 0,
+             "nrt": "0",
+             "owner_weight": "0g",
+             "fans": "8515",
+             "column_id": "9",
+             "cate_limit": {
+             "limit_type": 0,
+             "limit_num": 0,
+             "limit_threshold": 0,
+             "limit_time": 0
+             }
+             }
+             },
+             {
+             "id": 151776,
+             "main_id": 72937,
+             "source": 2,
+             "oa_source": 21,
+             "title": "你的逆水寒装备属性导师",
+             "pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/25/2ac797b9f81f6da049fcdf32c127e018.jpg",
+             "tv_pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/25/eed9f1e342991fc7c622f4c18ca45632.jpg",
+             "room": {
+             "room_id": "151776",
+             "room_src": "https://rpic.douyucdn.cn/asrpic/190131/151776_1317.png/dy1",
+             "vertical_src": "https://rpic.douyucdn.cn/asrpic/190131/151776_1317.png/dy1",
+             "isVertical": 0,
+             "cate_id": "434",
+             "room_name": "小兴：办卡排队合装备啦",
+             "vod_quality": "0",
+             "show_status": "1",
+             "show_time": "1548907950",
+             "owner_uid": "2522681",
+             "specific_catalog": "xingxiao",
+             "specific_status": "0",
+             "credit_illegal": "0",
+             "is_white_list": "0",
+             "cur_credit": "12",
+             "low_credit": "4",
+             "online": 641,
+             "nickname": "主播小兴",
+             "url": "/151776",
+             "game_url": "/g_nsh",
+             "game_name": "逆水寒",
+             "game_icon_url": "https://cs-op.douyucdn.cn/dycatr/a2473b2f8bdd65db982c50550a92c128.jpg",
+             "show_details": "QQ1群729746 QQ2群794848 QQ3群745886\n小兴QQ25805670",
+             "owner_avatar": "https://apic.douyucdn.cn/upload/avatar_v3/201901/d27a69a927a149a1932d41e3af0b35dd_big.jpg?rltime?rltime",
+             "cdnsWithName": [
+                              {
+                              "name": "主线路",
+                              "cdn": "ws"
+                              },
+                              {
+                              "name": "备用线路5",
+                              "cdn": "tct"
+                              },
+                              {
+                              "name": "备用线路2",
+                              "cdn": "ws2"
+                              }
+                              ],
+             "is_pass_player": 0,
+             "open_full_screen": 0,
+             "nrt": "0",
+             "owner_weight": "0g",
+             "fans": "29900",
+             "column_id": "1",
+             "cate_limit": {
+             "limit_type": 0,
+             "limit_num": 0,
+             "limit_threshold": 0,
+             "limit_time": 30
+             }
+             }
+             },
+             {
+             "id": 2711224,
+             "main_id": 584,
+             "source": 2,
+             "oa_source": 22,
+             "title": "杀手音小音超酷的游戏日常",
+             "pic_url": "https://cs-op.douyucdn.cn/douyu-vrp-admin/2018/07/16/b98c1dea546d31014001e30dec187cfc.jpg",
+             "tv_pic_url": "https://cs-op.douyucdn.cn/douyu-vrp-admin/2018/07/16/dbbb349ac940302be447f4d7372374b6.jpg",
+             "room": {
+             "room_id": "2711224",
+             "room_src": "https://rpic.douyucdn.cn/asrpic/190131/2711224_1317.png/dy1",
+             "vertical_src": "https://rpic.douyucdn.cn/asrpic/190131/2711224_1317.png/dy1",
+             "isVertical": 0,
+             "cate_id": "1",
+             "room_name": "最后一天直播啦，祝大家新年快乐♥",
+             "vod_quality": "0",
+             "show_status": "1",
+             "show_time": "1548894971",
+             "owner_uid": "153424370",
+             "specific_catalog": "",
+             "specific_status": "0",
+             "credit_illegal": "0",
+             "is_white_list": "0",
+             "cur_credit": "12",
+             "low_credit": "4",
+             "online": 753,
+             "nickname": "吃土小in",
+             "url": "/2711224",
+             "game_url": "/g_LOL",
+             "game_name": "英雄联盟",
+             "game_icon_url": "https://cs-op.douyucdn.cn/dycatr/game_cate/d3e0073bfb714186ab0c818744601963.jpg",
+             "show_details": "直播时间：18:00-23:00\n18-20单机游戏，\n20-23联机游戏。\n水友1群：130131249\n2群：653543165",
+             "owner_avatar": "https://apic.douyucdn.cn/upload/avatar_v3/201811/fad457a98622466f537dd6831ad134e2_big.jpg?rltime?rltime",
+             "cdnsWithName": [
+                              {
+                              "name": "主线路",
+                              "cdn": "ws"
+                              },
+                              {
+                              "name": "备用线路5",
+                              "cdn": "tct"
+                              },
+                              {
+                              "name": "备用线路2",
+                              "cdn": "ws2"
+                              }
+                              ],
+             "is_pass_player": 0,
+             "open_full_screen": 0,
+             "nrt": "0",
+             "owner_weight": "0g",
+             "fans": "33303",
+             "column_id": "1",
+             "cate_limit": {
+             "limit_type": 0,
+             "limit_num": 0,
+             "limit_threshold": 0,
+             "limit_time": 0
+             }
+             }
+             },
+             {
+             "id": 709710,
+             "main_id": 73584,
+             "source": 2,
+             "oa_source": 21,
+             "title": "37杀基本操作",
+             "pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/30/a2303b408473bc1d5cb0e050bf6a4f49.jpg",
+             "tv_pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/30/ead92bd65d3cec0470239ac4719d05de.jpg",
+             "room": {
+             "room_id": "709710",
+             "room_src": "https://rpic.douyucdn.cn/asrpic/190131/709710_1320.png/dy1",
+             "vertical_src": "https://rpic.douyucdn.cn/asrpic/190131/709710_1320.png/dy1",
+             "isVertical": 0,
+             "cate_id": "270",
+             "room_name": "首播冲冲冲！抽现金红包！",
+             "vod_quality": "0",
+             "show_status": "1",
+             "show_time": "1548907339",
+             "owner_uid": "14559541",
+             "specific_catalog": "xiaoxinfps",
+             "specific_status": "1",
+             "credit_illegal": "0",
+             "is_white_list": "0",
+             "cur_credit": "12",
+             "low_credit": "4",
+             "online": 33421,
+             "nickname": "imxiaoxin",
+             "url": "/xiaoxinfps",
+             "game_url": "/g_jdqs",
+             "game_name": "绝地求生",
+             "game_icon_url": "https://cs-op.douyucdn.cn/dycatr/game_cate/5a92cff5881b5c62814f5289c79b38cf.jpg",
+             "show_details": "直播时间：早12点-下6点  \n粉丝开黑⑦群：695719578\nPUBG开黑YY:348131",
+             "owner_avatar": "https://apic.douyucdn.cn/upload/avanew/face/201704/11/03/48c2a62cb0ef129b05bfd34d7492ab3f_big.jpg?rltime?rltime",
+             "cdnsWithName": [
+                              {
+                              "name": "主线路",
+                              "cdn": "ws"
+                              },
+                              {
+                              "name": "备用线路5",
+                              "cdn": "tct"
+                              },
+                              {
+                              "name": "备用线路2",
+                              "cdn": "ws2"
+                              }
+                              ],
+             "is_pass_player": 0,
+             "open_full_screen": 0,
+             "nrt": "0",
+             "owner_weight": "0g",
+             "fans": "98583",
+             "column_id": "15",
+             "cate_limit": {
+             "limit_type": 0,
+             "limit_num": 0,
+             "limit_threshold": 0,
+             "limit_time": 0
+             }
+             }
+             },
+             {
+             "id": 956424,
+             "main_id": 1588,
+             "source": 2,
+             "oa_source": 22,
+             "title": "主机第一女coser",
+             "pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/24/497b28255101d12f0484f8ab5b8b819b.jpg",
+             "tv_pic_url": "https://sta-op.douyucdn.cn/douyu-vrp-admin/2019/01/24/1e3f381cb08eaa6b8c51d1dd20418445.jpg",
+             "room": {
+             "room_id": "956424",
+             "room_src": "https://rpic.douyucdn.cn/asrpic/190131/956424_1317.png/dy1",
+             "vertical_src": "https://rpic.douyucdn.cn/asrpic/190131/956424_1317.png/dy1",
+             "isVertical": 0,
+             "cate_id": "19",
+             "room_name": "中国式家长-孙女出生了！",
+             "vod_quality": "0",
+             "show_status": "1",
+             "show_time": "1548897353",
+             "owner_uid": "8911697",
+             "specific_catalog": "",
+             "specific_status": "0",
+             "credit_illegal": "0",
+             "is_white_list": "0",
+             "cur_credit": "12",
+             "low_credit": "4",
+             "online": 809,
+             "nickname": "游民星空直播间",
+             "url": "/956424",
+             "game_url": "/g_TVgame",
+             "game_name": "主机游戏",
+             "game_icon_url": "https://cs-op.douyucdn.cn/dycatr/game_cate/602c38f19a4fe9af40fdb64a00ce9ed5.jpg",
+             "show_details": "❤游民星空萌妹小编的主机游戏体验之旅！ ❤赶快加入Q群：572657650跟妹子互动吧！❤ 直播时间：16:30-20:30 ❤ 火箭或粉丝牌10级送房管哦~私信加可爱小姐姐的微信房管群~",
+             "owner_avatar": "https://apic.douyucdn.cn/upload/avanew/face/201709/27/14/b7341d6a4cf262e2a42fedf57932c9a8_big.jpg?rltime?rltime",
+             "cdnsWithName": [
+                              {
+                              "name": "主线路",
+                              "cdn": "ws"
+                              },
+                              {
+                              "name": "备用线路5",
+                              "cdn": "tct"
+                              },
+                              {
+                              "name": "备用线路2",
+                              "cdn": "ws2"
+                              }
+                              ],
+             "is_pass_player": 0,
+             "open_full_screen": 0,
+             "nrt": "0",
+             "owner_weight": "0g",
+             "fans": "24208",
+             "is_high_game": 1,
+             "column_id": "15",
+             "cate_limit": {
+             "limit_type": 0,
+             "limit_num": 0,
+             "limit_threshold": 0,
+             "limit_time": 0
+             }
+             }
+             }
+             ]
+}

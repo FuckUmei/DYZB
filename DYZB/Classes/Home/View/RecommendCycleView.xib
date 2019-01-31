@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RecommendCycleView" customModule="DYZB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Q5W-CL-f3B">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="eqM-Mk-37Y">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="WN0-Gu-5qu"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="nqR-bj-gtG"/>
+                    </connections>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="xgC-QW-BHP">
+                    <rect key="frame" x="326" y="113" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235289999997" green="0.63529411759999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xgC-QW-BHP" secondAttribute="trailing" constant="10" id="EQy-dC-27J"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Q5W-CL-f3B" secondAttribute="bottom" id="EdA-Wu-eSY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Q5W-CL-f3B" secondAttribute="trailing" id="KKg-lC-QaL"/>
+                <constraint firstItem="Q5W-CL-f3B" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="NOe-S7-RJW"/>
+                <constraint firstItem="Q5W-CL-f3B" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="QCO-Y6-zRz"/>
+                <constraint firstItem="xgC-QW-BHP" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="SdX-hO-doK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="collectionView" destination="Q5W-CL-f3B" id="Tpr-pA-C98"/>
+                <outlet property="pageControl" destination="xgC-QW-BHP" id="kIr-BC-5sd"/>
+            </connections>
+            <point key="canvasLocation" x="-24" y="32"/>
+        </view>
+    </objects>
+</document>
